@@ -21,7 +21,7 @@ const navItems: NavItem[] = [
     subItems: [
       { label: "Author", href: "/author" },
       { label: "Speaker", href: "/speaker" },
-      { label: "Legacy Member", href: "/legacy-member" },
+      { label: "Legacy Maker", href: "/legacy-member" },
     ],
   },
   {
@@ -33,12 +33,13 @@ const navItems: NavItem[] = [
     ],
   },
   {
-    label: "RECOVERY METHODS",
+    label: "3 SPHERE RECOVERY METHOD",
     href: "/recovery-methods",
     hasDropdown: true,
     subItems: [
       { label: "Medication", href: "/medication" },
       { label: "Therapy", href: "/therapy" },
+      { label: "Spiritual Inner Healing", href: "/spiritual-inner-healing" },
     ],
   },
   {

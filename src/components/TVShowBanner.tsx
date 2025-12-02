@@ -10,7 +10,7 @@ export function TVShowBanner() {
           rel="noopener noreferrer"
           className="block group"
         >
-          <div className="text-center space-y-3">
+          <div className="text-center space-y-4">
             {/* Featured On Label */}
             <div className="flex items-center justify-center gap-2">
               <div className="h-px w-12 bg-amber-300"></div>
@@ -24,6 +24,21 @@ export function TVShowBanner() {
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white group-hover:text-amber-200 transition-colors">
               Legacy Makers TV
             </h3>
+
+            {/* Legacy Makers Banner Image with Coming Soon Badge */}
+            <div className="relative max-w-4xl mx-auto my-6">
+              <div className="relative rounded-lg overflow-hidden shadow-2xl">
+                <img
+                  src="/jigsaw-puzzle.png"
+                  alt="Watch Torah Mathews in Legacy Makers"
+                  className="w-full h-auto"
+                />
+                {/* Coming Soon Badge */}
+                <div className="absolute top-4 right-4 bg-red-600 text-white px-6 py-3 rounded-lg shadow-lg transform rotate-3">
+                  <p className="text-lg font-bold uppercase tracking-wider">Coming Soon</p>
+                </div>
+              </div>
+            </div>
 
             {/* Subtitle */}
             <p className="text-base md:text-lg text-amber-100 max-w-3xl mx-auto">
