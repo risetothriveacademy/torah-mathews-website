@@ -113,7 +113,7 @@ export default function AboutPage() {
             During my healing, God gave me a clear instruction:
           </p>
           <blockquote className="border-l-4 border-teal-600 pl-6 italic text-lg my-6 bg-slate-50 py-4 rounded">
-            "Testify of what I have done, and how I continue to move in your healing… let your story be the light that leads them back to Me."
+            "Testify of what I have done, and how I continue to move in your healing… let your story be the light that leads my Children who are lost, broken and hurting to Me for healing."
           </blockquote>
           <p className="text-slate-700 leading-relaxed">
             This shifted my identity. My testimony became a mission.
