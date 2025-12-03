@@ -13,45 +13,52 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section
-        className="relative min-h-[800px] md:min-h-[900px] bg-contain bg-center bg-no-repeat flex items-center justify-center"
-        style={{
-          backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/book-cover.jpg')",
-        }}
-      >
-        <div className="container mx-auto px-4 text-center text-white">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 max-w-4xl mx-auto leading-tight">
-            Transforming Pain into Power
-          </h2>
-          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            A journey of healing, identity, and faith. Torah Mathews is an author, speaker, and trauma recovery advocate whose testimony is transforming lives.
-          </p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/book">
-              <Button
-                size="lg"
-                className="bg-white text-gray-900 hover:bg-gray-100 font-semibold px-8 py-6 text-base"
-              >
-                Read the Book
-              </Button>
-            </Link>
-            <Link href="/speaking">
-              <Button
-                size="lg"
-                className="bg-[#209bab] text-white hover:bg-[#1a7a86] font-semibold px-8 py-6 text-base"
-              >
-                Book Torah to Speak
-              </Button>
-            </Link>
-            <Link href="/trauma-mental-health">
-              <Button
-                size="lg"
-                className="bg-[#b18c57] text-white hover:bg-[#9a7549] font-semibold px-8 py-6 text-base"
-              >
-                Explore Trauma Resources
-              </Button>
-            </Link>
+      <section className="relative min-h-[600px] md:min-h-[700px] bg-white">
+        <div className="grid grid-cols-1 md:grid-cols-2 min-h-[600px] md:min-h-[700px]">
+          {/* Left Half - Book Cover Image */}
+          <div
+            className="relative h-[400px] md:h-full bg-cover bg-center"
+            style={{
+              backgroundImage: "url('/book-cover.jpg')",
+            }}
+          />
+
+          {/* Right Half - Text Content */}
+          <div className="flex items-center justify-end bg-white pl-12 md:pl-16 pr-8 md:pr-12 py-8">
+            <div className="max-w-xl space-y-6">
+              <h2 className="text-4xl md:text-5xl font-bold leading-tight text-gray-900">
+                Transforming Pain into Power
+              </h2>
+              <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
+                A journey of healing, identity, and faith. Torah Mathews is an author, speaker, and trauma recovery advocate whose testimony is transforming lives.
+              </p>
+              <div className="flex flex-col gap-4 pt-4">
+                <Link href="/book">
+                  <Button
+                    size="lg"
+                    className="bg-[#209bab] text-white hover:bg-[#1a7a86] font-semibold px-8 py-6 text-base w-full"
+                  >
+                    Read the Book
+                  </Button>
+                </Link>
+                <Link href="/speaking">
+                  <Button
+                    size="lg"
+                    className="bg-[#b18c57] text-white hover:bg-[#9a7549] font-semibold px-8 py-6 text-base w-full"
+                  >
+                    Book Torah to Speak
+                  </Button>
+                </Link>
+                <Link href="/trauma-mental-health">
+                  <Button
+                    size="lg"
+                    className="bg-gray-900 text-white hover:bg-gray-800 font-semibold px-8 py-6 text-base w-full"
+                  >
+                    Explore Trauma Resources
+                  </Button>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>
