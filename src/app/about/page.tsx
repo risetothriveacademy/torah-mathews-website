@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ScrollingBanner } from "@/components/ScrollingBanner";
 
 export const metadata: Metadata = {
   title: "About Torah Mathews",
@@ -20,6 +21,11 @@ export default function AboutPage() {
           </h1>
         </header>
 
+        {/* Scrolling Banner */}
+        <div className="mb-12 -mx-6 lg:-mx-8">
+          <ScrollingBanner text="A Legacy in Honour of Jesus Christ — Together We Rise Against Pain, Grief, Depression, Anxiety, Abuse & Poverty." />
+        </div>
+
         {/* Who I Am */}
         <section className="space-y-6 mb-12">
           <h2 className="text-2xl font-semibold text-slate-900">
@@ -38,18 +44,21 @@ export default function AboutPage() {
             Childhood & Early Life — The Silent Wounds
           </h2>
           <p className="text-slate-700 leading-relaxed">
-            My childhood taught me to:
+            My childhood was shaped by three core traumas: deep grief, constant anxiety about our family's finances, and the heavy responsibility of holding everything together in a home affected by alcoholism and abuse. Navigating that environment was painful and confusing. I understood loss long before I understood healing. I knew the weight of scarcity before I ever knew stability. And I learned how to survive in a world shaped by trauma and addiction.
+          </p>
+          <p className="text-slate-700 leading-relaxed">
+            Those early years taught me to:
           </p>
           <ul className="space-y-2 text-slate-700 list-disc list-inside ml-4">
-            <li>suppress emotions</li>
-            <li>overachieve</li>
+            <li>suppress my emotions</li>
+            <li>overachieve to feel safe</li>
             <li>avoid conflict</li>
-            <li>remain silent</li>
-            <li>take care of others more than myself</li>
+            <li>stay silent even when I needed support</li>
+            <li>take care of others before myself</li>
             <li>survive instead of feel</li>
           </ul>
           <p className="text-slate-700 leading-relaxed">
-            These patterns followed me into adulthood, shaping my identity and relationships.
+            These patterns followed me into adulthood, quietly shaping my identity, my relationships, and the way I showed up in the world — until healing began.
           </p>
         </section>
 
@@ -153,6 +162,72 @@ export default function AboutPage() {
             <p className="font-semibold mt-6">
               And now, I help others rise into the lives God designed for them.
             </p>
+          </div>
+        </section>
+
+        {/* Legacy */}
+        <section className="space-y-6 mb-16 bg-gradient-to-br from-teal-50 to-slate-50 p-8 rounded-2xl border border-teal-100">
+          <h2 className="text-2xl font-semibold text-slate-900">
+            Building A Legacy in Honour of Jesus Christ — Together We Rise Against Pain, Grief, Depression, Anxiety, Abuse & Poverty.
+          </h2>
+
+          {/* VIP Cast Member Image */}
+          <div className="flex justify-center my-8">
+            <img
+              src="/vip-cast-member.jpg"
+              alt="Torah Mathews - VIP Cast Member, Legacy Makers"
+              className="rounded-xl shadow-2xl max-w-2xl w-full"
+            />
+          </div>
+
+          <div className="space-y-6 text-slate-700 leading-relaxed">
+            <p>
+              I have committed the little finances I have left to share my testimony and to build a platform that advocates for something urgently missing in today's recovery landscape:
+              <span className="font-semibold"> Spiritual Inner Healing and Faith-Based Resilience.</span>
+            </p>
+
+            <p>While clinical interventions remain vital —</p>
+            <ul className="space-y-2 list-disc list-inside ml-4">
+              <li>Diagnosis and medication help manage the physical symptoms, and</li>
+              <li>Psychotherapy and counseling address emotional and mental components of healing —</li>
+            </ul>
+            <p>I have learned through lived experience that these approaches, on their own, often provide only partial relief.</p>
+
+            <p>
+              Clinical care is essential. It can slow the spiral, create stability, and prevent irreversible harm. But too often, it becomes a generalized approach — a coping mechanism that helps us manage pain rather than truly heal it. Over time, dependence on medication can increase, and what once felt like support can slowly become another form of survival.
+            </p>
+
+            <p className="font-semibold text-lg">But we are not meant to simply survive.</p>
+
+            <p>
+              Each of us is unique, lovingly formed, and wonderfully created by God our Father. It is He who knows the deepest parts of us — including the wounds no one else sees. And with conviction, I can say that God alone holds the power to heal the layers of brokenness that manifest as emotional, mental, and spiritual distress.
+            </p>
+
+            <p>
+              As the world cries out — sometimes loudly, sometimes silently — those of us who know Christ's love and His continual healing understand this truth:<br />
+              <span className="italic">Pain resurfaces, but so does God's grace.</span><br />
+              <span className="italic">Trauma speaks, but so does His restoration.</span><br />
+              <span className="italic">Brokenness returns, but so does His power to rebuild.</span>
+            </p>
+
+            <p>
+              My hope is that anyone struggling — whether personally or through a loved one — will know that spiritual inner healing through God's love offers a path to hope, peace, and true restoration.
+            </p>
+
+            <p className="font-semibold">
+              If you or someone you care about is walking through this difficult battle, please don't give up.<br />
+              Healing is hard. Recovery takes courage.<br />
+              But there is hope for a new tomorrow.
+            </p>
+
+            <div className="mt-8 text-center">
+              <a
+                href="https://risetothriveacademy.com/foundation"
+                className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-teal-700 rounded-lg shadow-lg hover:bg-teal-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 transition-colors"
+              >
+                Rise to Thrive Academy — Begin the Journey
+              </a>
+            </div>
           </div>
         </section>
       </section>
