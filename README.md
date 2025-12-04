@@ -7,6 +7,45 @@ A faith-based website providing support, resources, and inspiration for trauma r
 - **Live Site:** [torahmathews.com](https://torahmathews.com)
 - **GitHub Repository:** [risetothriveacademy/torah-mathews-website](https://github.com/risetothriveacademy/torah-mathews-website)
 - **Contact:** admin@torahmathews.com
+## 🔎 Quick Reference (for Torah)
+
+### 📄 Main Pages
+- **Homepage (hero, TV banner, book promo):**  
+  `src/app/page.tsx`
+
+- **About Page (childhood trauma story, legacy section, VIP Cast Member image):**  
+  `src/app/about/page.tsx`
+
+- **Book Page (Amazon link, sample chapter, CTA):**  
+  `src/app/book/page.tsx` *(if present)*
+
+- **Speaking / Speaker Pages:**  
+  `src/app/speaking/page.tsx`  
+  `src/app/speaker/page.tsx` *(if present)*
+
+### 🧩 Shared Components
+- **Header (MBA title, navigation):**  
+  `src/components/site-header.tsx`
+
+- **Footer:**  
+  `src/components/site-footer.tsx`
+
+- **Scrolling Legacy Banner:**  
+  `src/components/scrolling-banner.tsx`
+
+- **TV Show Banner + VIP Badge:**  
+  `src/components/tv-show-banner.tsx`
+
+### 🖼️ Images & Branding
+- **All images (book cover, Torah photos, VIP Cast Member, Legacy Makers):**  
+  `/public`
+
+- **Brand Colors:**  
+  Teal `#209bab` • Gold `#b18c57` • Charcoal accents
+
+### 📚 Full Documentation
+- **Deep page-by-page map:** `PROJECT-DOCUMENTATION.md`  
+- **Current tasks & ope**
 
 ## 🛠 Tech Stack
 
