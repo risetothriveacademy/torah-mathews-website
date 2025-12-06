@@ -227,6 +227,31 @@ export default function BookPage() {
           </div>
         </div>
       </section>
+
+      {/* Customer Support Section */}
+      <section className="px-6 py-12 mx-auto max-w-4xl border-t border-slate-100 lg:px-8">
+        <div className="p-6 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm">
+          <h2 className="text-xl font-semibold text-slate-900 mb-4">
+            Customer Support
+          </h2>
+          <div className="space-y-3 text-sm text-slate-700 leading-relaxed">
+            <p>
+              For all customer support inquiries, please email{" "}
+              <a href="mailto:support@risetothrive-academy.com" className="text-teal-700 hover:text-teal-800 font-semibold">
+                support@risetothrive-academy.com
+              </a>.
+            </p>
+            <p>
+              Phone number is not monitored for support as all requests must be submitted in writing.
+              Our team typically responds within 24–48 hours (Monday–Friday).
+            </p>
+            <p className="text-xs text-slate-600 italic">
+              All customer support must be handled in writing. Phone support is not available.
+              Rise to Thrive Academy may request additional information to verify your identity before processing account or billing changes.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
