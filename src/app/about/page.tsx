@@ -230,6 +230,29 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
+
+        {/* Support Section */}
+        <section className="space-y-6 mb-16 bg-slate-50 p-8 rounded-2xl border border-slate-200">
+          <h2 className="text-2xl font-semibold text-slate-900">
+            Customer Support
+          </h2>
+          <div className="space-y-4 text-slate-700 leading-relaxed">
+            <p>
+              For all customer support inquiries, please email{" "}
+              <a href="mailto:support@risetothrive-academy.com" className="text-teal-700 hover:text-teal-800 font-semibold">
+                support@risetothrive-academy.com
+              </a>.
+            </p>
+            <p>
+              Phone number is not monitored for support as all requests must be submitted in writing.
+              Our team typically responds within 24–48 hours (Monday–Friday).
+            </p>
+            <p className="text-sm text-slate-600 italic">
+              All customer support must be handled in writing. Phone support is not available.
+              Rise to Thrive Academy may request additional information to verify your identity before processing account or billing changes.
+            </p>
+          </div>
+        </section>
       </section>
     </main>
   );
