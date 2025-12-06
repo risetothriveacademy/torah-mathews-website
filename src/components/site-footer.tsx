@@ -47,6 +47,13 @@ export function SiteFooter() {
             <p className="text-slate-500 text-xs">
               Contact: <a href="mailto:admin@torahmathews.com" className="text-teal-400 hover:text-teal-300">admin@torahmathews.com</a>
             </p>
+
+            <p className="text-slate-400 text-xs mt-4">
+              Support: <a href="mailto:support@risetothrive-academy.com" className="text-teal-400 hover:text-teal-300">support@risetothrive-academy.com</a>
+            </p>
+            <p className="text-slate-500 text-xs">
+              All customer support must be handled in writing.
+            </p>
           </div>
         </div>
       </section>
