@@ -29,7 +29,7 @@ export function TVShowBanner() {
             <div className="relative max-w-4xl mx-auto my-6">
               <div className="relative rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  src="/jigsaw-puzzle.png"
+                  src="/legacy-makers-tv-new.png"
                   alt="Watch Torah Mathews in Legacy Makers"
                   className="w-full h-auto"
                 />
