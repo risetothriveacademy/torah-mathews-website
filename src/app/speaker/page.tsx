@@ -27,9 +27,9 @@ export default function SpeakerPage() {
             </h2>
 
             <p className="text-gray-700 mb-6 text-lg">
-              Torah Mathews delivers powerful, life-changing messages for conferences, churches,
-              corporate teams, and mental health events. Her testimony of overcoming devastating loss
-              inspires audiences to find hope and healing through faith.
+              <p className="text-gray-700 mb-6 text-lg">
+  Torah Mathews speaks from lived experience, emotional recovery, and the Three Sphere Recovery approach to trauma-informed healing and restoration. Her message brings hope for trauma recovery that many people feel no one talks about — integrating emotional healing, faith-centered restoration, and resilience-building principles for individuals, organizations, churches, and corporate communities.
+</p>
             </p>
 
             <div className="space-y-4">
