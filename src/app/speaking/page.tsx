@@ -114,7 +114,32 @@ export default function SpeakingPage() {
             Torah Mathews is an author and trauma-recovery advocate whose testimony of God's healing has helped countless individuals reclaim identity, emotional stability, and purpose.
           </p>
         </section>
+{/* Featured Speaker Bio */}
+<section className="mb-16 bg-white rounded-lg p-10 shadow-md">
+  <div className="max-w-4xl mx-auto">
+    
+    <h2 className="text-3xl font-bold text-[#b18c57] mb-6 text-center">
+      Featured Speaker Bio
+    </h2>
 
+    <p className="text-gray-700 text-lg leading-relaxed mb-6">
+      Torah Mathews is a faith-based trauma recovery speaker, author, and advocate known for delivering powerful messages of hope, emotional restoration, and transformational healing through lived experience.
+    </p>
+
+    <p className="text-gray-700 text-lg leading-relaxed mb-6">
+      Drawing from her personal journey through trauma, grief, emotional distress, and recovery, Torah speaks with rare authenticity and compassion — helping audiences understand the hidden emotional battles that often remain unseen behind anxiety, burnout, fear, rejection, and hopelessness.
+    </p>
+
+    <p className="text-gray-700 text-lg leading-relaxed mb-6">
+      Her message integrates trauma-informed emotional recovery, faith-centered healing, and practical restoration principles through her Three Sphere Recovery approach — addressing emotional, spiritual, and life restoration together.
+    </p>
+
+    <p className="text-gray-700 text-lg leading-relaxed">
+      Torah speaks at churches, conferences, wellness events, leadership gatherings, recovery communities, and corporate wellness initiatives — equipping audiences with insight, encouragement, and practical tools for healing, resilience, and transformation.
+    </p>
+
+  </div>
+</section>
         {/* Workshops & Breakouts */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-[#b18c57] mb-8 text-center">Workshops & Breakouts</h2>
