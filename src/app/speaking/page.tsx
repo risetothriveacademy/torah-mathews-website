@@ -12,9 +12,9 @@ export default function SpeakingPage() {
       <div className="container mx-auto px-4 max-w-6xl">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">Book Torah Mathews to Speak</h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-6">Hope for Trauma Recovery That No One Talks About</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Trauma-informed, faith-centered, Spirit-led teaching that brings emotional and spiritual transformation.
+            Speaking from lived experience, emotional recovery, and the Three Sphere Recovery approach to trauma-informed healing and restoration.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a href="mailto:admin@torahmathews.com?subject=Speaking Request">
