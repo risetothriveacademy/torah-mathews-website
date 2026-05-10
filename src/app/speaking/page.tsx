@@ -52,7 +52,28 @@ export default function SpeakingPage() {
             </div>
           </div>
         </section>
+<div>
+            <h2 className="text-3xl font-semibold mb-6 text-[#b18c57]">
+              Faith-Based Trauma Recovery Speaker
+            </h2>
 
+            <p className="text-gray-700 mb-6 text-lg">
+              <p className="text-gray-700 mb-6 text-lg">
+  Torah Mathews speaks from lived experience, emotional recovery, and the Three Sphere Recovery approach to trauma-informed healing and restoration. Her message brings hope for trauma recovery that many people feel no one talks about — integrating emotional healing, faith-centered restoration, and resilience-building principles for individuals, organizations, churches, and corporate communities.
+</p>
+
+            <div className="space-y-4">
+              <h3 className="font-semibold text-xl text-[#209bab]">Speaking Topics:</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li>• Transforming Pain Into Power</li>
+                <li>• Faith-Based Trauma Recovery</li>
+                <li>• Overcoming Anxiety, Depression, and Grief</li>
+                <li>• Spiritual Resilience for Business Owners</li>
+                <li>• Finding Hope in Devastating Circumstances</li>
+              </ul>
+            </div>
+          </div>
+        </div>
         {/* Signature Topics */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-[#b18c57] mb-8 text-center">Signature Topics</h2>
