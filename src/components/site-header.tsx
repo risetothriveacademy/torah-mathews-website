@@ -19,8 +19,7 @@ const navItems: NavItem[] = [
     href: "/about",
     hasDropdown: true,
     subItems: [
-      { label: "Author", href: "/author" },
-      { label: "Speaker", href: "/speaker" },
+     { label: "Speaker", href: "/speaking" },
       { label: "Legacy Maker", href: "/legacy-member" },
     ],
   },
