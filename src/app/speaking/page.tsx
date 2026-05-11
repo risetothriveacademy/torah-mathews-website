@@ -73,7 +73,7 @@ export default function SpeakingPage() {
               </ul>
             </div>
           </div>
-        </div>
+      
         {/* Signature Topics */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-[#b18c57] mb-8 text-center">Signature Topics</h2>
