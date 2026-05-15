@@ -221,16 +221,16 @@ export default function AboutPage() {
             </p>
 
             <div className="mt-8 text-center">
-              <a
-                href="https://risetothriveacademy.com/foundation"
-                className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-teal-700 rounded-lg shadow-lg hover:bg-teal-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 transition-colors"
-              >
-                Rise to Thrive Academy — Begin the Journey
-              </a>
+             <a
+  href="https://foundation.risetothrive-academy.com/offer-video-a"
+  className="..."
+>
+  Rise to Thrive Academy — Begin the Journey
+</a>
             </div>
           </div>
         </section>
-
+        
         {/* Support Section */}
         <section className="space-y-6 mb-16 bg-slate-50 p-8 rounded-2xl border border-slate-200">
           <h2 className="text-2xl font-semibold text-slate-900">
