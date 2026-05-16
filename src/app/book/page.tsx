@@ -36,18 +36,22 @@ export default function BookPage() {
             </p>
 
             <div className="flex flex-wrap gap-3 mt-8">
-              <a
-                href="#"
-                className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white bg-teal-700 rounded-lg shadow-sm hover:bg-teal-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2"
-              >
-                Buy on Amazon
-              </a>
-              <a
-                href="#sample-chapter"
-                className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-teal-800 bg-teal-50 rounded-lg hover:bg-teal-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2"
-              >
-                Download a Sample Chapter
-              </a>
+                <a
+             href="https://www.amazon.com/dp/B0FNBTLQJ6"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="..."
+             >
+            Buy on Amazon
+</a>
+             <a
+  href="https://courses.risetothrive-academy.com/free-memoir"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-teal-800 bg-teal-50 rounded-lg hover:bg-teal-100"
+>
+  Download Free Memoir
+</a>
             </div>
           </div>
 
