@@ -42,7 +42,6 @@ export default function SpeakerPage() {
                 <li>• Finding Hope in Devastating Circumstances</li>
               </ul>
             </div>
-          </div>
         </section>
         <div className="bg-white rounded-lg shadow-md p-8 mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-[#b18c57]">Book Torah for Your Event</h2>
