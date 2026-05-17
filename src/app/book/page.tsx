@@ -34,14 +34,25 @@ export default function BookPage() {
               of loss, collapse, and the long road of recovery—woven with
               Scripture, honest reflection, and practical hope.
             </p>
-             <div className="relative z-20 flex flex-wrap gap-3 mt-8">
-            <a
-      href="https://courses.risetothrive-academy.com/free-memoir"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="relative z-20 inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-teal-800 bg-teal-50 rounded-lg hover:bg-teal-100">
-  Download Free Memoir
-</a>
+           <div className="relative z-20 flex flex-wrap gap-3 mt-8">
+  <a
+    href="https://www.amazon.com/dp/B0FNBTLQJ6"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white bg-teal-700 rounded-lg hover:bg-teal-800"
+  >
+    Buy on Amazon
+  </a>
+
+  <a
+    href="https://courses.risetothrive-academy.com/free-memoir"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-teal-800 bg-teal-50 rounded-lg hover:bg-teal-100"
+  >
+    Download Free Memoir
+  </a>
+</div>
             </div>
           </div>
 
