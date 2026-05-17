@@ -14,7 +14,7 @@ export default function BookPage() {
     <main className="min-h-screen bg-white">
       {/* Hero */}
       <section className="px-6 py-16 mx-auto max-w-6xl lg:px-8">
-        <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
+        <div className="relative z-10 grid gap-10 lg:grid-cols-2 lg:items-center">
           <div>
             <p className="text-sm font-semibold tracking-wide text-teal-700 uppercase">
               The Book
