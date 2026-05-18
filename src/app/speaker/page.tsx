@@ -65,7 +65,7 @@ export default function SpeakerPage() {
               <h3 className="font-semibold mb-2">Corporate</h3>
               <p className="text-sm text-gray-600">Wellness programs and team events</p>
             </div>
-          </div>
+         
         </div>
 
         <div className="text-center bg-gradient-to-r from-[#209bab] to-[#b18c57] text-white rounded-lg p-12">
