@@ -72,7 +72,7 @@ export default function SpeakingPage() {
                 <li>• Finding Hope in Devastating Circumstances</li>
               </ul>
             </div>
-         </div>
+         
         {/* Signature Topics */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-[#b18c57] mb-8 text-center">Signature Topics</h2>
