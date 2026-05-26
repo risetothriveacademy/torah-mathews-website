@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 export function TVShowBanner() {
+  return null;
   return (
     <section className="bg-gradient-to-r from-amber-900 via-amber-800 to-amber-900 border-y-4 border-amber-500">
       <div className="container mx-auto px-4 py-6">
