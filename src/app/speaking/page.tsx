@@ -138,7 +138,7 @@ export default function SpeakingPage() {
 <p className="text-slate-700 leading-relaxed text-lg">
   Torah Mathews is an author and trauma-recovery advocate whose testimony of God’s healing has helped countless individuals reclaim identity, emotional stability, and purpose.
 </p>
-        </section>
+      
 {/* Featured Speaker Bio */}
 <section className="mb-16 bg-white rounded-lg p-10 shadow-md">
   <div className="max-w-4xl mx-auto">
