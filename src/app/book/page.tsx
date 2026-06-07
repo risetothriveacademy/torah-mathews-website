@@ -52,7 +52,7 @@ export default function BookPage() {
   </a>
 </div>
             </div>
-          </div>
+         
 
           <div className="flex items-center justify-center">
             <img
