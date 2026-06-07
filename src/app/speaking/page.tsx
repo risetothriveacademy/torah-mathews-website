@@ -22,9 +22,11 @@ export default function SpeakingPage() {
                 Request Availability
               </Button>
             </a>
-            <Button size="lg" variant="outline">
-              Download Media Kit
-            </Button>
+            <a href="mailto:admin@torahmathews.com?subject=Media Kit Request">
+              <Button size="lg" variant="outline">
+                Download Media Kit
+              </Button>
+            </a>
           </div>
         </div>
 

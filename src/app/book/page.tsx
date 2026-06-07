@@ -45,7 +45,7 @@ export default function BookPage() {
   </a>
 
   <a
-    href="/memoir"
+    href="#sample-chapter"
     className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-teal-800 bg-teal-50 rounded-lg hover:bg-teal-100"
   >
     Download Free Memoir
