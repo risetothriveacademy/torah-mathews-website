@@ -72,7 +72,8 @@ export default function SpeakingPage() {
                 <li>• Finding Hope in Devastating Circumstances</li>
               </ul>
             </div>
-         
+        </div>
+
         {/* Signature Topics */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-[#b18c57] mb-8 text-center">Signature Topics</h2>
@@ -138,7 +139,8 @@ export default function SpeakingPage() {
 <p className="text-slate-700 leading-relaxed text-lg">
   Torah Mathews is an author and trauma-recovery advocate whose testimony of God’s healing has helped countless individuals reclaim identity, emotional stability, and purpose.
 </p>
-      
+        </section>
+
 {/* Featured Speaker Bio */}
 <section className="mb-16 bg-white rounded-lg p-10 shadow-md">
   <div className="max-w-4xl mx-auto">
@@ -195,5 +197,6 @@ export default function SpeakingPage() {
           </a>
         </div>
           </div>
+        </div>
   );
 }
