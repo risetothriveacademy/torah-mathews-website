@@ -57,7 +57,7 @@ export default function SpeakingPage() {
               Faith-Based Trauma Recovery Speaker
             </h2>
 
-            <p className="text-gray-700 mb-6 text-lg">
+        
               <p className="text-gray-700 mb-6 text-lg">
   Torah Mathews speaks from lived experience, emotional recovery, and the Three Sphere Recovery approach to trauma-informed healing and restoration. Her message brings hope for trauma recovery that many people feel no one talks about — integrating emotional healing, faith-centered restoration, and resilience-building principles for individuals, organizations, churches, and corporate communities.
 </p>
