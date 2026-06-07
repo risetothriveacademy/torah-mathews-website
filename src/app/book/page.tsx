@@ -34,7 +34,7 @@ export default function BookPage() {
               of loss, collapse, and the long road of recovery—woven with
               Scripture, honest reflection, and practical hope.
             </p>
-           <div className="relative z-20 flex flex-wrap gap-3 mt-8">
+<div className="relative z-20 flex flex-wrap gap-3 mt-8">
   <a
     href="https://www.amazon.com/dp/B0FNBTLQJ6"
     target="_blank"
