@@ -130,7 +130,7 @@ export default function SpeakingPage() {
         {/* Speaker Bio */}
         <section className="mb-16 bg-gradient-to-r from-teal-50 to-amber-50 rounded-lg p-8">
           <h2 className="text-2xl font-bold text-slate-900 mb-4">Speaking From Lived Experience & Recovery</h2>
-          <p className="text-slate-700 leading-relaxed text-lg">
+         
             <p className="text-slate-700 leading-relaxed text-lg mb-4">
   Speaking from lived experience, emotional recovery, and the Three Sphere Recovery approach to trauma-informed healing and restoration.
 </p>
