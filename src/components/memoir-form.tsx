@@ -1,79 +1,39 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect } from "react";
+
+// GoHighLevel (LeadConnector) embedded lead-capture form for the free memoir
+// request. The iframe hosts the actual form; form_embed.js handles responsive
+// height adjustments. No local submission/success logic is used — the embedded
+// form manages collection and confirmation on GoHighLevel's side.
+const GHL_FORM_ID = "Bucba3oHV61btkYoM7YG";
 
 export function MemoirForm() {
-  // Temporary lead capture form. No CRM/HubSpot integration is wired up — the
-  // submit handler simply shows a confirmation message and does not send the
-  // entered data anywhere yet.
-  const [submitted, setSubmitted] = useState(false);
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://link.msgsndr.com/js/form_embed.js";
+    script.async = true;
+    document.body.appendChild(script);
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    setSubmitted(true);
-  };
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   return (
-    <div className="mt-5 p-4 bg-slate-50 rounded-xl border border-slate-200 text-sm text-slate-700">
-      <p className="font-semibold text-slate-900 mb-1">
-        Request the Free Memoir
-      </p>
-      <p>
-        Enter your details below to receive a complimentary PDF copy of Torah
-        Mathews&apos; memoir and occasional encouragement resources related to
-        trauma recovery, resilience, faith, and emotional healing.
-      </p>
-
-      {submitted ? (
-        <p
-          role="status"
-          className="mt-4 rounded-lg border border-teal-200 bg-teal-50 px-4 py-3 font-medium text-teal-800"
-        >
-          Thank you. Your request has been received. We will email your free
-          memoir shortly.
-        </p>
-      ) : (
-        <form className="mt-4 space-y-3" onSubmit={handleSubmit}>
-          <div>
-            <label
-              htmlFor="memoir-first-name"
-              className="block text-sm font-medium text-slate-900"
-            >
-              First Name
-            </label>
-            <input
-              id="memoir-first-name"
-              name="firstName"
-              type="text"
-              required
-              className="mt-1 block w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-teal-600 focus:outline-none focus:ring-1 focus:ring-teal-600"
-            />
-          </div>
-
-          <div>
-            <label
-              htmlFor="memoir-email"
-              className="block text-sm font-medium text-slate-900"
-            >
-              Email Address
-            </label>
-            <input
-              id="memoir-email"
-              name="email"
-              type="email"
-              required
-              className="mt-1 block w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 shadow-sm focus:border-teal-600 focus:outline-none focus:ring-1 focus:ring-teal-600"
-            />
-          </div>
-
-          <button
-            type="submit"
-            className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white bg-teal-700 rounded-lg hover:bg-teal-800"
-          >
-            Receive My Free Memoir
-          </button>
-        </form>
-      )}
+    <div className="mt-5">
+      <iframe
+        src={`https://api.leadconnectorhq.com/widget/form/${GHL_FORM_ID}`}
+        id={`inline-${GHL_FORM_ID}`}
+        title="Free Memoir Request"
+        className="w-full"
+        style={{
+          width: "100%",
+          height: "516px",
+          border: "none",
+          borderRadius: "8px",
+        }}
+      />
     </div>
   );
 }

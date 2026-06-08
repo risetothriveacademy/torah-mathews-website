@@ -219,10 +219,8 @@ export default function BookPage() {
             emails related to trauma recovery and faith.
           </p>
 
-          {/* Lead capture form. To wire this up to GoHighLevel later, replace
-              the <MemoirForm /> component below (or the <form> inside
-              src/components/memoir-form.tsx) with the GoHighLevel form embed
-              code. */}
+          {/* Embedded GoHighLevel lead-capture form (see
+              src/components/memoir-form.tsx). */}
           <MemoirForm />
         </div>
       </section>
