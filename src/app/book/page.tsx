@@ -218,14 +218,20 @@ export default function BookPage() {
             emails related to trauma recovery and faith.
           </p>
 
-          {/* Placeholder for actual form */}
-          <div className="mt-5 p-4 bg-slate-50 rounded-xl border border-dashed border-slate-300 text-sm text-slate-600">
+          <div className="mt-5 p-4 bg-slate-50 rounded-xl border border-slate-200 text-sm text-slate-700">
             <p className="font-semibold text-slate-900 mb-1">
-              Sample Chapter Form Placeholder
+              Request the Free Memoir
             </p>
             <p>
-              Embed your HubSpot or other signup form here. For now, this is a
-              placeholder container.
+              To receive Torah Mathews&apos; free memoir excerpt and
+              encouragement updates, please email{" "}
+              <a
+                href="mailto:support@risetothrive-academy.com?subject=Free%20Memoir%20Request"
+                className="text-teal-700 hover:text-teal-800 font-semibold"
+              >
+                support@risetothrive-academy.com
+              </a>{" "}
+              with the subject line &ldquo;Free Memoir Request.&rdquo;
             </p>
           </div>
         </div>
