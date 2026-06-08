@@ -1,33 +1,9 @@
-"use client";
-
-import { useState } from "react";
-
 export function MemoirForm() {
-  const [submitted, setSubmitted] = useState(false);
-
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-
-    // Placeholder submit handling until the CRM integration is connected.
-    //
-    // TODO: Replace this form (and the handler below) with the GoHighLevel
-    // form embed code once it is available. Paste the GoHighLevel embed
-    // snippet here in place of the <form> element below.
-    setSubmitted(true);
-  }
-
-  if (submitted) {
-    return (
-      <div className="mt-5 p-4 bg-slate-50 rounded-xl border border-slate-200 text-sm text-slate-700">
-        <p className="font-semibold text-slate-900 mb-1">Thank you!</p>
-        <p>
-          Your request has been received. Torah Mathews&apos; memoir is on its
-          way to your inbox.
-        </p>
-      </div>
-    );
-  }
-
+  // Lead capture form — structure only. No CRM integration is wired up yet.
+  //
+  // FUTURE: Paste the GoHighLevel form embed code here, replacing the <form>
+  // element below, once it is available. The GoHighLevel embed will handle
+  // submission and lead delivery.
   return (
     <div className="mt-5 p-4 bg-slate-50 rounded-xl border border-slate-200 text-sm text-slate-700">
       <p className="font-semibold text-slate-900 mb-1">
@@ -39,7 +15,7 @@ export function MemoirForm() {
         trauma recovery, resilience, faith, and emotional healing.
       </p>
 
-      <form onSubmit={handleSubmit} className="mt-4 space-y-3">
+      <form className="mt-4 space-y-3">
         <div>
           <label
             htmlFor="memoir-first-name"
