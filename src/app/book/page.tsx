@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { HubSpotForm } from "@/components/hubspot-form";
+import { MemoirForm } from "@/components/memoir-form";
 import { ScrollingBanner } from "@/components/ScrollingBanner";
 import { SectionBanner } from "@/components/SectionBanner";
 
@@ -45,7 +46,7 @@ export default function BookPage() {
   </a>
 
   <a
-    href="/memoir"
+    href="#sample-chapter"
     className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-teal-800 bg-teal-50 rounded-lg hover:bg-teal-100"
   >
     Download Free Memoir
@@ -218,16 +219,9 @@ export default function BookPage() {
             emails related to trauma recovery and faith.
           </p>
 
-          {/* Placeholder for actual form */}
-          <div className="mt-5 p-4 bg-slate-50 rounded-xl border border-dashed border-slate-300 text-sm text-slate-600">
-            <p className="font-semibold text-slate-900 mb-1">
-              Sample Chapter Form Placeholder
-            </p>
-            <p>
-              Embed your HubSpot or other signup form here. For now, this is a
-              placeholder container.
-            </p>
-          </div>
+          {/* Embedded GoHighLevel lead-capture form (see
+              src/components/memoir-form.tsx). */}
+          <MemoirForm />
         </div>
       </section>
 
