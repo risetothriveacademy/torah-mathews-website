@@ -1,3 +1,5 @@
+import { RetreatApplicationForm } from "@/components/retreat-application-form";
+
 export default function ProfessionalRetreatPage() {
   return (
     <main style={styles.page}>
@@ -96,9 +98,7 @@ export default function ProfessionalRetreatPage() {
           speaking, sponsoring, exploring certification pathways, directory
           participation, or referral partnership opportunities.
         </p>
-        <a href="PASTE_YOUR_FORM_LINK_HERE" style={styles.button}>
-          Complete Application
-        </a>
+        <RetreatApplicationForm />
       </section>
     </main>
   );

@@ -194,6 +194,9 @@ export default function SpeakingPage() {
             </Button>
           </a>
         </div>
-          </div>
+          </section>
+        </div>
+      </div>
+    </div>
   );
 }
