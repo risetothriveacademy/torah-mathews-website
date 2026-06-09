@@ -35,6 +35,49 @@ export default function ProfessionalRetreatPage() {
         </p>
       </section>
 
+      <section style={styles.section}>
+        <h2 style={styles.heading}>Who This Retreat Is For</h2>
+        <p style={styles.text}>
+          This retreat is built for the people who carry others through their
+          hardest seasons — and for the organizations that stand behind them.
+        </p>
+
+        <h3 style={styles.subheading}>Primary Audience</h3>
+        <ul style={styles.list}>
+          <li>Counselors &amp; Therapists</li>
+          <li>Social Workers &amp; Case Workers</li>
+          <li>Coaches</li>
+          <li>Educators &amp; School Counselors</li>
+          <li>Chaplains &amp; Ministry Leaders</li>
+          <li>Recovery Leaders</li>
+          <li>Faith-Based Mental Health Professionals</li>
+        </ul>
+
+        <h3 style={styles.subheading}>Secondary Organizational Audiences</h3>
+        <div style={styles.audienceGrid}>
+          <div style={styles.audienceCard}>
+            <h4 style={styles.audienceCardTitle}>NGOs &amp; Nonprofits</h4>
+            <ul style={styles.list}>
+              <li>Front-line staff</li>
+              <li>Humanitarian workers</li>
+              <li>Community support organizations</li>
+              <li>Trauma-exposed teams</li>
+              <li>Leadership teams</li>
+            </ul>
+          </div>
+          <div style={styles.audienceCard}>
+            <h4 style={styles.audienceCardTitle}>Churches &amp; Ministries</h4>
+            <ul style={styles.list}>
+              <li>Pastoral care teams</li>
+              <li>Ministry leaders</li>
+              <li>Church counseling ministries</li>
+              <li>Care and recovery ministries</li>
+              <li>Faith-based support organizations</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <section style={styles.gridSection}>
         <div style={styles.card}>
           <h3 style={styles.cardTitle}>Who Should Attend?</h3>
@@ -155,6 +198,30 @@ const styles: { [key: string]: React.CSSProperties } = {
     fontSize: "34px",
     color: "#775237",
     marginBottom: "20px",
+  },
+  subheading: {
+    fontSize: "22px",
+    color: "#0097B2",
+    marginTop: "32px",
+    marginBottom: "14px",
+  },
+  audienceGrid: {
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+    gap: "24px",
+    marginTop: "8px",
+  },
+  audienceCard: {
+    backgroundColor: "white",
+    borderTop: "6px solid #DB910F",
+    borderRadius: "12px",
+    padding: "28px",
+    boxShadow: "0 10px 25px rgba(0,0,0,0.08)",
+  },
+  audienceCardTitle: {
+    color: "#775237",
+    fontSize: "20px",
+    marginBottom: "12px",
   },
   text: {
     fontSize: "18px",
