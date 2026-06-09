@@ -52,6 +52,7 @@ const navItems: NavItem[] = [
       { label: "Social Groups", href: "/social-groups" },
     ],
   },
+  { label: "RETREAT", href: "/professional-retreat" },
   { label: "BLOGS", href: "/blogs" },
 ];
 

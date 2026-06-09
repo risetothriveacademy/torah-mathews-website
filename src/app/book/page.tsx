@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { HubSpotForm } from "@/components/hubspot-form";
+import { LeadCaptureForm } from "@/components/lead-capture-form";
 import { ScrollingBanner } from "@/components/ScrollingBanner";
 import { SectionBanner } from "@/components/SectionBanner";
 
@@ -45,7 +46,7 @@ export default function BookPage() {
   </a>
 
   <a
-    href="/memoir"
+    href="#sample-chapter"
     className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-teal-800 bg-teal-50 rounded-lg hover:bg-teal-100"
   >
     Download Free Memoir
@@ -202,31 +203,30 @@ export default function BookPage() {
         </div>
       </section>
 
-      {/* Sample Chapter CTA */}
+      {/* Sample Chapter / Free Memoir CTA */}
       <section
         id="sample-chapter"
         className="px-6 py-16 mx-auto max-w-4xl border-t border-slate-100 bg-slate-50 lg:px-8"
       >
-        <div className="p-6 bg-white rounded-2xl border border-slate-200 shadow-sm">
+        <div className="p-6 bg-white rounded-2xl border border-slate-200 shadow-sm sm:p-8">
           <h2 className="text-xl font-semibold text-slate-900">
-            Download a Sample Chapter
+            Download a Free Memoir Excerpt
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-slate-700">
-            Want to read before you buy? Use the form below to request a sample
-            chapter from <span className="font-semibold">Transforming Pain into Power</span>.
-            You&apos;ll receive a PDF excerpt and occasional encouragement
-            emails related to trauma recovery and faith.
+            Want to read before you buy? Share your details below and we&apos;ll
+            send you a free excerpt from{" "}
+            <span className="font-semibold">Transforming Pain into Power</span>.
+            You&apos;ll also receive occasional encouragement emails related to
+            trauma recovery and faith.
           </p>
 
-          {/* Placeholder for actual form */}
-          <div className="mt-5 p-4 bg-slate-50 rounded-xl border border-dashed border-slate-300 text-sm text-slate-600">
-            <p className="font-semibold text-slate-900 mb-1">
-              Sample Chapter Form Placeholder
-            </p>
-            <p>
-              Embed your HubSpot or other signup form here. For now, this is a
-              placeholder container.
-            </p>
+          <div className="mt-6 max-w-md">
+            <LeadCaptureForm
+              lead="free-memoir"
+              submitLabel="Send Me the Free Excerpt"
+              successTitle="Your excerpt is on its way!"
+              successMessage="Thank you. Check your inbox for your free memoir excerpt from Transforming Pain into Power."
+            />
           </div>
         </div>
       </section>
