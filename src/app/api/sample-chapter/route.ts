@@ -6,7 +6,7 @@ import { NextResponse } from "next/server";
 // created" workflows (e.g. emailing the memoir excerpt) can fire automatically.
 export const dynamic = "force-dynamic";
 
-const GHL_API_BASE = "https://services.leadconnector.com";
+const GHL_API_BASE = "https://services.leadconnectorhq.com";
 const GHL_API_VERSION = "2021-07-28";
 const SAMPLE_CHAPTER_TAG = "memoir-sample-chapter";
 
