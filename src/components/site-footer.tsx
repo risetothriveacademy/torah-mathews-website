@@ -36,6 +36,7 @@ export function SiteFooter() {
             <div className="flex items-center justify-center gap-6 text-sm text-slate-400">
               <a href="/about" className="hover:text-white transition-colors">About</a>
               <a href="/speaking" className="hover:text-white transition-colors">Speaking</a>
+              <a href="/professional-retreat" className="hover:text-white transition-colors">Retreat</a>
               <a href="/book" className="hover:text-white transition-colors">Book</a>
               <a href="/corporate-sponsorships" className="hover:text-white transition-colors">Sponsorships</a>
             </div>

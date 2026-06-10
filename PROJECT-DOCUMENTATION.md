@@ -212,6 +212,37 @@ Faith-based website for Torah Mathews, MBA - author, speaker, and trauma recover
 - Speaking topics offered
 - Event types (churches, conferences, corporate)
 - Contact form or CTA
+- **Related Pages:** "Explore More" cross-link cards to Professional Retreat, Corporate Sponsorships, For Churches & Ministries, and Supporting Someone in Trauma
+
+---
+
+### **Professional Retreat Page** (`/professional-retreat`)
+**File:** `src/app/professional-retreat/page.tsx`
+
+**Purpose:**
+- Landing page and application funnel for the premium 2½-day "Professional Trauma Recovery & Resilience Retreat" — a faith-informed, trauma-informed, whole-person professional development experience.
+
+**Sections:**
+1. **Hero** — Kicker ("Transforming Pain Into Power™"), title, "Faith-Informed • Trauma-Informed • Whole-Person Recovery" tagline, location/date line, and an "Apply / Request Details" CTA anchored to `#apply`.
+2. **For Professionals Who Help Others Heal** — Intro framing the retreat's purpose.
+3. **Who This Retreat Is For** — Positioning statement plus a **Primary Audience** list (counselors, therapists, social workers, coaches, educators, chaplains, recovery leaders, faith-based professionals) and a **Secondary Organizational Audiences** two-card grid ("NGOs & Nonprofits", "Churches & Ministries").
+4. **Who Should Attend? / Retreat Focus Areas** — Two-card grid.
+5. **Why Attend?** — Dark benefits section (networking, certification pathways, referral/directory participation, visibility, future collaboration).
+6. **Retreat Investment** — Pricing ($2,900) and what's included.
+7. **Explore More** — "Explore More" cross-link cards to Speaking, Corporate Sponsorships, For Churches & Ministries, and Supporting Someone in Trauma.
+8. **Apply / Request Details** (ID: `apply`) — Hosts the retreat application form.
+
+**Styling:**
+- Self-contained inline `styles` object using the retreat palette: charcoal (`#3B3B3B`), gold (`#DB910F` / `#775237`), teal (`#0097B2`), and cream (`#F8F5EF`). Does not use the global Tailwind design system.
+
+**Components Used:**
+- `<RetreatApplicationForm />` (`src/components/retreat-application-form.tsx`)
+
+**Forms & Integration:**
+- The application form posts to a server-side route that upserts the contact into GoHighLevel so the existing CRM workflows fire automatically. (Integration and route are pre-existing and were not modified for navigation/cross-linking work.)
+
+**Navigation:**
+- Linked from the main header ("RETREAT") and the site footer ("Retreat").
 
 ---
 
@@ -294,6 +325,7 @@ Faith-based website for Torah Mathews, MBA - author, speaker, and trauma recover
 - Resources for people supporting those with trauma
 - How to help without being a clinician
 - Links to: Family Members, Church, Social Groups
+- **Related Pages:** "Explore More" cross-link cards to Professional Retreat, Speaking, Corporate Sponsorships, and For Churches & Ministries
 
 ---
 
@@ -314,6 +346,7 @@ Faith-based website for Torah Mathews, MBA - author, speaker, and trauma recover
 - How churches can support trauma survivors
 - Creating trauma-informed ministries
 - Training for church leaders
+- **Related Pages:** "Explore More" cross-link cards to Professional Retreat, Speaking, Corporate Sponsorships, and Supporting Someone in Trauma
 
 ---
 
@@ -333,6 +366,7 @@ Faith-based website for Torah Mathews, MBA - author, speaker, and trauma recover
 - Partnership opportunities for corporations
 - Sponsorship packages
 - Impact and benefits
+- **Related Pages:** "Explore More" cross-link cards to Professional Retreat, Speaking, For Churches & Ministries, and Supporting Someone in Trauma
 
 ---
 
@@ -398,6 +432,7 @@ NON-CLINICIANS ▾
   - Family Members
   - Church
   - Social Groups
+RETREAT
 BLOGS
 ```
 
@@ -865,6 +900,6 @@ bun run lint
 
 ---
 
-**Last Updated:** December 4, 2025
-**Version:** 1.0
+**Last Updated:** June 10, 2026
+**Version:** 1.1
 **Maintained By:** Development Team
